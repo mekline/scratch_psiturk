@@ -1,0 +1,184 @@
+2016-05-19 16:15:38,565 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:38,689 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:40,559 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:41,264 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:41,886 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:42,377 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:42,494 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:42,566 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:42,606 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:15:58,547 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:16:28,349 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:18:36,949 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:18:40,374 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:18:42,781 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:19:43,778 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:47,763 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:47,866 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:48,291 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:48,489 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:48,672 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:48,988 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:49,195 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:49,979 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:50,287 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:50,586 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:50,970 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,059 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,364 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,462 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,484 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,580 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:19:51,582 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:26,793 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:28,861 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:29,089 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:29,169 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:30,274 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:30,486 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:30,893 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:30,963 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:20:30,994 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:29:51,370 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 15, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/experiment.py", line 211, in advertisement
+    user_agent_obj = user_agents.parse(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 189, in parse
+    return UserAgent(user_agent_string)
+  File "/var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/user_agents/parsers.py", line 107, in __init__
+    self.device = parse_device(**ua_dict['device'])
+TypeError: parse_device() got an unexpected keyword argument 'brand'
+2016-05-19 16:35:37,659 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'debugDK5BM9'], 'workerId': [u'None'], 'hitId': [u'debugV2K5EB'], 'mode': [u'sandbox']}
+Exception KeyError: KeyError(140371008362240,) in <module 'threading' from '/opt/rh/python27/root/usr/lib64/python2.7/threading.pyc'> ignored
+2016-05-19 16:39:28,891 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:30,281 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:31,160 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:31,885 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:32,569 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:32,681 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:32,685 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:32,804 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:39:32,899 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:40:08,697 already_did_exp_hit (1010) {'assignmentId': [u'debug00HHUE'], 'workerId': [u'None'], 'hitId': [u'debugJWZIZW'], 'mode': [u'sandbox']}
+2016-05-19 16:41:41,335 already_did_exp_hit (1010) {'assignmentId': [u'debug00HHUE'], 'workerId': [u'None'], 'hitId': [u'debugJWZIZW'], 'mode': [u'sandbox']}
+2016-05-19 16:44:04,684 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:07,030 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:07,092 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:07,142 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:07,560 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:07,613 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:08,065 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:08,192 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 16:44:08,198 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
