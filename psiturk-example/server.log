@@ -182,3 +182,33 @@ Exception KeyError: KeyError(140371008362240,) in <module 'threading' from '/opt
 2016-05-19 16:44:08,065 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2016-05-19 16:44:08,192 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2016-05-19 16:44:08,198 /var/lib/openshift/573e10ab89f5cf5e9c000155/python/virtenv/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:05:20 [14112] [ERROR] Invalid address: ('127.8.23.1', 8080)
+2016-05-19 17:06:14,623 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:14,750 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:14,958 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,032 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,042 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,085 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,119 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,149 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:06:15,156 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:43,701 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:43,800 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:43,970 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,034 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,090 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,092 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,096 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,128 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:17:44,134 /Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-05-19 17:19:26,767 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/flask/app.py", line 1379, in handle_user_exception
+    return handler(e)
+  File "/Users/mekline/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/psiturk/experiment.py", line 103, in handle_exp_error
+    "%s (%s) %s", e.value, e.errornum, str(dict(request.args)))
+NameError: global name 'e' is not defined
